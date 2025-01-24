@@ -20,6 +20,9 @@ const Navbar = () => {
         <Link to="/dashboard" style={styles.link}>
           Dashboard
         </Link>
+        <Link to="/register" style={styles.link}>
+            Register
+          </Link>
         <Link to="/leaderboard" style={styles.link}>
           Leaderboard
         </Link>
@@ -31,6 +34,7 @@ const Navbar = () => {
           <Link to="/login" style={styles.link}>
             Login
           </Link>
+          
         )}
       </div>
     </nav>
